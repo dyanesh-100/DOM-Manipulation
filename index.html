@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <section>
+        <div class="shapes-container">
+            <div class="triangle-container" onclick="triangleHandler()">
+                <div class="triangle"></div>
+                <input type="text" class="triangleInput" placeholder="Enter length of the triangle">
+                <br>
+                <input type="text" class="triangleInput" placeholder="Enter breadth of the triangle">
+                <br>
+                <input type="text" class="triangleInput" placeholder="Area of the triangle">
+                <br>
+                <button onclick="calculateArea()">Calculate</button>
+            </div>
+            <div class="circle-container" onclick="circleHandler()">
+                <div class="circle"></div>
+                <input type="text" class="circleInput" placeholder="Enter the radius of the circle">
+                <br>
+                <input type="text" class="circleInput" placeholder="Area of the circle">
+                <br>
+                <button onclick="calculateArea()">Calculate</button>
+            </div>
+            <div class="square-container" onclick="squareHandler()">
+                <div class="square" ></div>
+                <input type="text" class="squareInput" placeholder="Enter the side of the square">
+                <br>
+                <input type="text" class="squareInput" placeholder="Area of the square">
+                <br>
+                <button onclick="calculateArea()">Calculate</button>
+            </div>
+        </div>
+    </section>
+    <script src="./assets/script/script.js"></script>
+</body>
+</html>
